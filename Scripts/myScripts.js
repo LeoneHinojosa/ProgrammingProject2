@@ -1,4 +1,4 @@
-const alertSound = new Audio('alertsound.mp3'); //If need to change sound change name here
+const alertSound = new Audio('School Related Documents/Fall 2024/CITP4316/ProgrammingProject2alertsound.mp3'); //If need to change sound change name here
 
 let intervalId;
 let remainingTime;
