@@ -1,3 +1,8 @@
+const alertSound = new Audio('alertsound.mp3'); //If need to change sound change name here
+
+let intervalId;
+let remainingTime;
+
 document.getElementById('timerForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent form submission
 
